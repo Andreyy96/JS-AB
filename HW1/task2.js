@@ -1,6 +1,6 @@
-let firstName = 'Андрей'
+let firstName = 'Андрій'
 let middleName = 'Бондаренко'
-let lastName = 'Николаёвич'
+let lastName = 'Миколайович'
 
 let person1 = `${firstName} ${middleName} ${lastName}`
 let person2 = firstName + ' ' + middleName + ' ' + lastName
