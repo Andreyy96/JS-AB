@@ -122,7 +122,7 @@ switch (dayWeek) {
 let x2 = prompt()
 console.log(typeof x2, x2)
 
-if (x2 === 0 || x2 === null || x2 === '' || x2 ===  undefined || true === Number.isNaN(x2)) {
+if (x2 === 0 || x2 === null || x2 === '' || x2 ===  undefined || true === Number.isNaN(x2) || x2 === false) {
     x2 = "default"
     console.log(x2)
 } else {
