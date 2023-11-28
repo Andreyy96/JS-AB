@@ -144,7 +144,7 @@ let users = [
 ];
 
 for (let user of users) {
-    if (!user['status']) {
+    if (user['status']) {
         console.log(user)
     }
 }
@@ -154,7 +154,7 @@ for (let user of users) {
 console.log('')
 
 for (let user of users) {
-    if (user['status']) {
+    if (!user['status']) {
         console.log(user)
     }
 }
