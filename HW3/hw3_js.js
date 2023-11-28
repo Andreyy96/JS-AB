@@ -1,10 +1,17 @@
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 
+// let massive = ['9BtEaz60Bmj', 'NanAkter', 'cGedziKme', 'Wx8y377GQB', 'AqGbVqLbqNu', 'yyqsFUpR', '9aw0OZ5',
+//     'Qc3BqGx', 'rL2TUkkK7s6', 'gaVgVg9T41U']
+
 let text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
 
 for (let i = 0; i < 10; i++) {
     document.write(`<div><p>${text}</p></div>`)
 }
+
+// for (let str of massive) {
+//     document.write(`<div><p>${str}</p></div>`)
+// }
 
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 
@@ -12,7 +19,16 @@ for (let i = 1; i <= 10; i++) {
     document.write(`<div><p>${text} - id: ${i}</p></div>`)
 }
 
+// for (let num = 0; num < massive.length; num++) {
+//     document.write(`<div><p>${massive[num]} -${num}</p></div>`)
+// }
+
+
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+
+// let massive2 = ['9BtEaz60Bmj', 'NanAkter', 'cGedziKme', 'Wx8y377GQB', 'AqGbVqLbqNu', 'yyqsFUpR', '9aw0OZ5',
+// 'Qc3BqGx', 'rL2TUkkK7s6', 'gaVgVg9T41U', 'nXRBPKDm', '3M3orawnzv', '9thJjEp', 'zmyTgphTC5', 'TxyupXvd',
+//     'K5RTiQa', '4PXd5asQPm', 'hpj18muHWp', '6CHYhpw2', 'Kztws7YOYRS']
 
 let text2 = 'Commodoscelerisque'
 
@@ -22,6 +38,12 @@ while (h < 20) {
     h++
 }
 
+// let j = 0
+// while (j < massive2.length) {
+//     document.write(`<h1>${massive2[j]}</h1>`)
+//     j++
+// }
+
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 
 h = 1
@@ -29,6 +51,13 @@ while (h <= 20) {
     document.write(`<h1>${text2} - id: ${h}</h1>`)
     h++
 }
+
+// j = 0
+// while (j < massive2.length) {
+//     document.write(`<h1>${massive2[j]} - id: ${j}</h1>`)
+//     j++
+// }
+
 
 // - Використовуючи данні з масиву, за допомоги document.write та циклу побудувати структуру по шаблону.
 //
