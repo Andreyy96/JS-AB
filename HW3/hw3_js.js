@@ -164,7 +164,7 @@ for (let user of users) {
 console.log('')
 
 for (let user of users) {
-    if (user['age'] > 30 ) {
+    if (user['age'] >= 30 ) {
         console.log(user)
     }
 }
