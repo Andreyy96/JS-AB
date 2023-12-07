@@ -76,7 +76,8 @@ let sortNums = (nums, direction) => {
     }
 }
 
-console.log(sortNums(nums, directory))
+let arr_numbers = sortNums(nums, directory)
+console.log(arr_numbers)
 
 // --------------------------------------------------------------------------------------------------------------------
 
