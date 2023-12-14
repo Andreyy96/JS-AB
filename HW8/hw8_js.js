@@ -209,7 +209,7 @@ class Prince {
         this.shoe = found_shoe
     }
 
-    fiendCinderella(women) {
+    findCinderella(women) {
         for(let woman of women) {
             if(this.shoe === woman.foot_size) {
                 console.log(`${this.name}, ти знайшов попелюшку - name: ${woman.name}, age: ${woman.age}, foot size: ${woman.foot_size}`)
@@ -217,7 +217,7 @@ class Prince {
         }
     }
 
-    fiend(women) {
+    findCinderella2(women) {
         console.log(women.find(woman => this.shoe === woman.foot_size))
     }
 }
@@ -238,6 +238,6 @@ let women = [
 let prince = new Prince('vasya', 31, 28)
 
 
-prince.fiendCinderella(women)
+prince.findCinderella(women)
 
-prince.fiend(women)
+prince.findCinderella2(women)
