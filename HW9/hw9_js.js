@@ -291,8 +291,6 @@ let title  = [...document.querySelectorAll('.item-grid-card__title')].map(el => 
 
 let author = [...document.querySelectorAll('.item-grid-music-preview__author')].map(el => el.innerText)
 
-array.push(title, author)
-
 for (let i of title) {
     array.push({title: i})
 }
