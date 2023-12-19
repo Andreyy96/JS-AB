@@ -273,6 +273,9 @@ for (const coursesArrayElement of coursesArray) {
 value_style = ".name-course{text-align: center;}"
 addStyle(style, value_style)
 
+value_style = ".course{border: 1px solid red; margin-bottom: 5px;}"
+addStyle(style, value_style)
+
 value_style = "span{display: flex; gap: 20px;}"
 addStyle(style, value_style)
 
@@ -297,5 +300,3 @@ for (let i of title) {
 for (let i = 0; i < author.length; i++) {
     array[i]['author'] = author[i]
 }
-
-console.log(array)
