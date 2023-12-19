@@ -283,3 +283,21 @@ value_style = "#hour-duration{width: 66vw; text-align: center;}"
 addStyle(style, value_style)
 
 console.log({...document.querySelectorAll('.item-grid-card__meta')})
+
+//mikkit task
+let array = []
+
+let title  = [...document.querySelectorAll('.item-grid-card__title')].map(el => el.innerText)
+
+let author = [...document.querySelectorAll('.item-grid-music-preview__author')].map(el => el.innerText)
+
+array.push(title, author)
+
+for (let i of title) {
+    array.push({title: i})
+}
+for (let i = 0; i < author.length; i++) {
+    array[i]['author'] = author[i]
+}
+
+console.log(array)
