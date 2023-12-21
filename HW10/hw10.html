@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+
+        .mainDiv {
+            width: 21vw;
+            border: 1px solid black;
+        }
+        #registration {
+            width: 20vw;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        #registration>button {
+            width: 5vw;
+        }
+
+        div {
+            margin-top: 10px;
+        }
+
+        div#urls {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+<!--1-->
+<form id="registration">
+    <label for="username"></label>
+    <input id="username" type="text" name="username" placeholder="name">
+    <label for="surname"></label>
+    <input id="surname" type="text" name="surname" placeholder="surname">
+    <label for="age"></label>
+    <input id="age" type="number" name="age" placeholder="age">
+    <button id="send">Send</button>
+</form>
+
+
+<form id="createTable">
+    <label for="row"></label>
+    <input id="row" type="number" name="row" placeholder="row">
+    <label for="column"></label>
+    <input id="column" type="number" name="column" placeholder="column">
+    <label for="information"></label>
+    <input id="information" type="text" name="information" placeholder="information">
+    <button id="create">Create</button>
+</form>
+
+<script src="hw10_js.js"></script>
+
+
+</body>
+</html>
