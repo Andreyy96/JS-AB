@@ -19,9 +19,10 @@ form.onsubmit = (ev) => {
 
     let div = document.getElementsByClassName('info')[0]
 
-    div.innerText = `Name: ${this.username.value}
-                     SurName: ${this.surname.value}
-                     Age: ${this.age.value}`
+    let createObject = {name: this.username.value, surname: this.surname.value, age: this.age.value}
+    div.innerText = `Name: ${createObject['name']}
+                     SurName: ${createObject['surname']}
+                     Age: ${createObject['age']}`
 
     mainDiv.appendChild(div)
 }
