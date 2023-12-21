@@ -270,9 +270,9 @@ createForm.append(createInput, createButton)
 createDiv.append(createForm)
 document.body.appendChild(createDiv)
 
-form = document.forms.checkAge
+ageForm = document.forms.checkAge
 
-form.onsubmit = (ev) => {
+ageForm.onsubmit = (ev) => {
     ev.preventDefault()
     if (this.userAge.value <= 0 || this.userAge.value > 100) {
         alert('Вік не було введено')
